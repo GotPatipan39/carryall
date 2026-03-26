@@ -7,6 +7,7 @@ import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import TransformStamped
+from sensor_msgs.msg import JointState
 from tf2_ros import TransformBroadcaster
 import math
 import struct
@@ -64,6 +65,7 @@ class OdometryPublisher(Node):
         
         # Publishers
         self._odom_pub = self.create_publisher(Odometry, 'odom', 10)
+        self._joint_pub = self.create_publisher(JointState, 'joint_states', 10)
         self._tf_broadcaster = TransformBroadcaster(self)
         
         # Timer
@@ -138,6 +140,14 @@ class OdometryPublisher(Node):
         
         # 4. Broadcast & Publish
         self._publish_data(phi)
+        self._publish_joints(phi)
+
+    def _publish_joints(self, steer_angle):
+        js = JointState()
+        js.header.stamp = self.get_clock().now().to_msg()
+        js.name = ['front_steer_joint']
+        js.position = [steer_angle]
+        self._joint_pub.publish(js)
 
     def _publish_data(self, steer_angle):
         now = self.get_clock().now().to_msg()
