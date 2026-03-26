@@ -1,0 +1,1 @@
+/home/u24/Documents/sw/carryall/build/carryall_msgs/ament_cmake_core/carryall_msgsConfig-version.cmake

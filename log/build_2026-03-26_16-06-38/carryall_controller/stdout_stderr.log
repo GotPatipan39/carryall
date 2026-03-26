@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing carryall_controller.egg-info/PKG-INFO
+writing dependency_links to carryall_controller.egg-info/dependency_links.txt
+writing entry points to carryall_controller.egg-info/entry_points.txt
+writing requirements to carryall_controller.egg-info/requires.txt
+writing top-level names to carryall_controller.egg-info/top_level.txt
+reading manifest file 'carryall_controller.egg-info/SOURCES.txt'
+writing manifest file 'carryall_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages/carryall-controller.egg-link (link to .)
+Installing odom_publisher script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+Installing plc_bridge_node script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+
+Installed /home/u24/Documents/sw/carryall/build/carryall_controller
+running symlink_data

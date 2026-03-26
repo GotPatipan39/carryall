@@ -1,0 +1,34 @@
+[0.437s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_description -- -j4 -l4
+[0.506s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.554s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.614s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[1.702s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.246s] -- Configuring done (1.8s)
+[2.261s] -- Generating done (0.0s)
+[2.272s] -- Build files have been written to: /home/u24/Documents/sw/carryall/build/carryall_description
+[2.408s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_description -- -j4 -l4
+[2.413s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_description
+[2.455s] -- Install configuration: ""
+[2.455s] -- Execute custom install script
+[2.459s] -- Up-to-date symlink: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/carryall.urdf.xacro
+[2.460s] -- Up-to-date symlink: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/carryall_gazebo.xacro
+[2.461s] -- Up-to-date symlink: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/sensors.xacro
+[2.463s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/launch/display.launch.py
+[2.513s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/launch/gazebo.launch.py
+[2.559s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/worlds/warehouse.sdf
+[2.608s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/ament_index/resource_index/package_run_dependencies/carryall_description
+[2.655s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/ament_index/resource_index/parent_prefix_path/carryall_description
+[2.700s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/ament_prefix_path.sh
+[2.738s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/ament_prefix_path.dsv
+[2.761s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/path.sh
+[2.786s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/path.dsv
+[2.812s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.bash
+[2.838s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.sh
+[2.862s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.zsh
+[2.895s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.dsv
+[2.968s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.dsv
+[3.022s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/ament_index/resource_index/packages/carryall_description
+[3.075s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/cmake/carryall_descriptionConfig.cmake
+[3.141s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/cmake/carryall_descriptionConfig-version.cmake
+[3.204s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.xml
+[3.237s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_description

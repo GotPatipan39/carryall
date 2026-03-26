@@ -1,0 +1,10 @@
+setup.py
+hins_laser_interfaces/__init__.py
+hins_laser_interfaces.egg-info/PKG-INFO
+hins_laser_interfaces.egg-info/SOURCES.txt
+hins_laser_interfaces.egg-info/dependency_links.txt
+hins_laser_interfaces.egg-info/top_level.txt
+hins_laser_interfaces/msg/__init__.py
+hins_laser_interfaces/msg/_hins_msg.py
+hins_laser_interfaces/srv/__init__.py
+hins_laser_interfaces/srv/_hins_srv.py

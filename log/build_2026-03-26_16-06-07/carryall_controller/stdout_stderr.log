@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating carryall_controller.egg-info
+writing carryall_controller.egg-info/PKG-INFO
+writing dependency_links to carryall_controller.egg-info/dependency_links.txt
+writing entry points to carryall_controller.egg-info/entry_points.txt
+writing requirements to carryall_controller.egg-info/requires.txt
+writing top-level names to carryall_controller.egg-info/top_level.txt
+writing manifest file 'carryall_controller.egg-info/SOURCES.txt'
+reading manifest file 'carryall_controller.egg-info/SOURCES.txt'
+writing manifest file 'carryall_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages/carryall-controller.egg-link (link to .)
+Installing odom_publisher script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+Installing plc_bridge_node script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+
+Installed /home/u24/Documents/sw/carryall/build/carryall_controller
+running symlink_data
+creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index
+creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index/resource_index
+creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index/resource_index/packages
+symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/resource/carryall_controller -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index/resource_index/packages
+symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/package.xml -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller
+creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/launch
+symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/launch/controller.launch.py -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/launch
+creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/config
+symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/config/plc_params.yaml -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/config

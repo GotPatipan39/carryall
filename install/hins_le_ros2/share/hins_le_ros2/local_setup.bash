@@ -1,0 +1,1 @@
+/home/u24/Documents/sw/carryall/build/hins_le_ros2/ament_cmake_environment_hooks/local_setup.bash

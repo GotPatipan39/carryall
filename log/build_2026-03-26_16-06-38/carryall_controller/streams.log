@@ -1,0 +1,17 @@
+[3.422s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/u24/Documents/sw/carryall/build/carryall_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/u24/Documents/sw/carryall/build/carryall_controller/build --no-deps symlink_data
+[4.854s] running develop
+[5.972s] running egg_info
+[6.052s] writing carryall_controller.egg-info/PKG-INFO
+[6.052s] writing dependency_links to carryall_controller.egg-info/dependency_links.txt
+[6.053s] writing entry points to carryall_controller.egg-info/entry_points.txt
+[6.054s] writing requirements to carryall_controller.egg-info/requires.txt
+[6.054s] writing top-level names to carryall_controller.egg-info/top_level.txt
+[6.230s] reading manifest file 'carryall_controller.egg-info/SOURCES.txt'
+[6.240s] writing manifest file 'carryall_controller.egg-info/SOURCES.txt'
+[6.350s] running build_ext
+[6.351s] Creating /home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages/carryall-controller.egg-link (link to .)
+[6.355s] Installing odom_publisher script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+[6.358s] Installing plc_bridge_node script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+[6.359s] 
+[6.359s] Installed /home/u24/Documents/sw/carryall/build/carryall_controller
+[6.362s] running symlink_data

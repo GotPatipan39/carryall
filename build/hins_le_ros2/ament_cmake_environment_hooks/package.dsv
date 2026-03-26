@@ -1,0 +1,4 @@
+source;share/hins_le_ros2/local_setup.bash
+source;share/hins_le_ros2/local_setup.dsv
+source;share/hins_le_ros2/local_setup.sh
+source;share/hins_le_ros2/local_setup.zsh

@@ -1,0 +1,111 @@
+[0.016s] Invoking command in '/home/u24/Documents/sw/carryall/build/hins_le_ros2': AMENT_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/hins_le_ros2
+[0.131s] -- The C compiler identification is GNU 13.3.0
+[0.259s] -- The CXX compiler identification is GNU 13.3.0
+[0.306s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.538s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.539s] -- Detecting C compile features
+[0.541s] -- Detecting C compile features - done
+[0.558s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.779s] -- Detecting CXX compile features
+[0.780s] -- Detecting CXX compile features - done
+[0.791s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.099s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.261s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.484s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.519s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.810s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.819s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.016s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.061s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.109s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.305s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.457s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.702s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[2.705s] -- Found hins_laser_interfaces: 0.0.1 (/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/share/hins_laser_interfaces/cmake)
+[2.747s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.976s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.980s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.981s] -- Configured cppcheck include dirs: /home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src;/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include
+[2.981s] -- Configured cppcheck exclude dirs and/or files: 
+[2.985s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.985s] -- Configured cpplint exclude dirs and/or files: 
+[2.987s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.988s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.990s] -- Added test 'lint_cmake' to check CMake code style
+[2.992s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.995s] -- Added test 'uncrustify' to check C / C++ code style
+[2.996s] -- Configured uncrustify additional arguments: 
+[2.998s] -- Added test 'xmllint' to check XML markup files
+[3.002s] -- Configuring done (3.0s)
+[3.030s] -- Generating done (0.0s)
+[3.039s] -- Build files have been written to: /home/u24/Documents/sw/carryall/build/hins_le_ros2
+[3.056s] Invoked command in '/home/u24/Documents/sw/carryall/build/hins_le_ros2' returned '0': AMENT_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/hins_le_ros2
+[3.058s] Invoking command in '/home/u24/Documents/sw/carryall/build/hins_le_ros2': AMENT_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/hins_le_ros2 -- -j4 -l4
+[3.147s] [ 25%] [32mBuilding CXX object CMakeFiles/hins_le_ros2_node.dir/src/main.cpp.o[0m
+[3.151s] [ 50%] [32mBuilding CXX object CMakeFiles/hins_le_ros2_node.dir/src/hins/laser_data_receiver.cpp.o[0m
+[3.153s] [ 75%] [32mBuilding CXX object CMakeFiles/hins_le_ros2_node.dir/src/hins/xingsong_driver.cpp.o[0m
+[7.467s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[7.468s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[7.468s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[7.468s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/laser_data_receiver.h:26[m[K,
+[7.469s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/laser_data_receiver.cpp:1[m[K:
+[7.473s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[7.474s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[7.474s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.296s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[13.296s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[13.296s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[13.296s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/laser_data_receiver.h:26[m[K,
+[13.297s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/xingsong_driver.h:18[m[K,
+[13.297s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/xingsong_driver.cpp:1[m[K:
+[13.297s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[13.297s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[13.298s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.304s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[13.304s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[13.306s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[13.306s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/laser_data_receiver.h:26[m[K,
+[13.307s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/xingsong_driver.h:18[m[K,
+[13.308s]                  from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/main.cpp:1[m[K:
+[13.309s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[13.309s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[13.310s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.933s] [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/laser_data_receiver.cpp:[m[K In member function ‘[01m[Khins::ScanData hins::LaserDataReceiver::[01;32m[KGetFullScan[m[K()[m[K’:
+[13.934s] [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/laser_data_receiver.cpp:121:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.934s]   121 |     if ([01;35m[Kdata.distance_data.size() != scan_all_point_num_[m[K)
+[13.934s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.039s] [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/xingsong_driver.cpp:[m[K In member function ‘[01m[Kvoid hins::XingSongDriver::[01;32m[KSetAreaCommand[m[K(hins::HSGetAreaDataPackage)[m[K’:
+[17.039s] [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/xingsong_driver.cpp:253:50:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[17.039s]   253 |     if((command.channel > 63) | ([01;35m[Kcommand.channel < 0[m[K))
+[17.040s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K
+[23.710s] [100%] [32m[1mLinking CXX executable hins_le_ros2_node[0m
+[24.306s] [100%] Built target hins_le_ros2_node
+[24.324s] Invoked command in '/home/u24/Documents/sw/carryall/build/hins_le_ros2' returned '0': AMENT_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/hins_le_ros2 -- -j4 -l4
+[24.326s] Invoking command in '/home/u24/Documents/sw/carryall/build/hins_le_ros2': AMENT_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/hins_le_ros2
+[24.340s] -- Install configuration: ""
+[24.340s] -- Execute custom install script
+[24.341s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/lib/hins_le_ros2/hins_le_ros2_node
+[24.357s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/launch/__pycache__/hins_le_launch.cpython-38.pyc
+[24.372s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/launch/hins_le_launch.py
+[24.388s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/launch/tf2_publisher.py
+[24.402s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/ament_index/resource_index/package_run_dependencies/hins_le_ros2
+[24.417s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/ament_index/resource_index/parent_prefix_path/hins_le_ros2
+[24.433s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/environment/ament_prefix_path.sh
+[24.447s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/environment/ament_prefix_path.dsv
+[24.463s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/environment/path.sh
+[24.477s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/environment/path.dsv
+[24.492s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/local_setup.bash
+[24.507s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/local_setup.sh
+[24.522s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/local_setup.zsh
+[24.536s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/local_setup.dsv
+[24.551s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/package.dsv
+[24.567s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/ament_index/resource_index/packages/hins_le_ros2
+[24.589s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/cmake/hins_le_ros2Config.cmake
+[24.605s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/cmake/hins_le_ros2Config-version.cmake
+[24.622s] -- Symlinking: /home/u24/Documents/sw/carryall/install/hins_le_ros2/share/hins_le_ros2/package.xml
+[24.643s] Invoked command in '/home/u24/Documents/sw/carryall/build/hins_le_ros2' returned '0': AMENT_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/u24/Documents/sw/carryall/install/hins_laser_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/hins_le_ros2

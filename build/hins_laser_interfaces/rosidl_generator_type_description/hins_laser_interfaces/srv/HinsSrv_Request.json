@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hins_laser_interfaces/srv/HinsSrv_Request",
+      "fields": [
+        {
+          "name": "channel",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hins_laser_interfaces/srv/HinsSrv_Request",
+      "hash_string": "RIHS01_bc26e6e8c4b610e298a769e4c8688550847fcf5cd9836983d3c6cff23cb4e183"
+    }
+  ]
+}

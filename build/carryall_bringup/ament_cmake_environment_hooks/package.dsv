@@ -1,0 +1,4 @@
+source;share/carryall_bringup/local_setup.bash
+source;share/carryall_bringup/local_setup.dsv
+source;share/carryall_bringup/local_setup.sh
+source;share/carryall_bringup/local_setup.zsh

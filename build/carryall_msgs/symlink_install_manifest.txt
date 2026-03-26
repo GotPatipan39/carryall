@@ -1,0 +1,15 @@
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/ament_index/resource_index/package_run_dependencies/carryall_msgs
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/ament_index/resource_index/parent_prefix_path/carryall_msgs
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/ament_prefix_path.sh
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/ament_prefix_path.dsv
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/path.sh
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/path.dsv
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.bash
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.sh
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.zsh
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.dsv
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.dsv
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/ament_index/resource_index/packages/carryall_msgs
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/cmake/carryall_msgsConfig.cmake
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/cmake/carryall_msgsConfig-version.cmake
+/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.xml

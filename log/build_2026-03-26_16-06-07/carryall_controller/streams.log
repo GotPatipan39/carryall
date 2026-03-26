@@ -1,0 +1,28 @@
+[2.824s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/u24/Documents/sw/carryall/build/carryall_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/u24/Documents/sw/carryall/build/carryall_controller/build --no-deps symlink_data
+[3.947s] running develop
+[4.367s] running egg_info
+[4.367s] creating carryall_controller.egg-info
+[4.411s] writing carryall_controller.egg-info/PKG-INFO
+[4.412s] writing dependency_links to carryall_controller.egg-info/dependency_links.txt
+[4.412s] writing entry points to carryall_controller.egg-info/entry_points.txt
+[4.412s] writing requirements to carryall_controller.egg-info/requires.txt
+[4.413s] writing top-level names to carryall_controller.egg-info/top_level.txt
+[4.413s] writing manifest file 'carryall_controller.egg-info/SOURCES.txt'
+[4.492s] reading manifest file 'carryall_controller.egg-info/SOURCES.txt'
+[4.494s] writing manifest file 'carryall_controller.egg-info/SOURCES.txt'
+[4.537s] running build_ext
+[4.538s] Creating /home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages/carryall-controller.egg-link (link to .)
+[4.539s] Installing odom_publisher script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+[4.540s] Installing plc_bridge_node script to /home/u24/Documents/sw/carryall/install/carryall_controller/bin
+[4.541s] 
+[4.541s] Installed /home/u24/Documents/sw/carryall/build/carryall_controller
+[4.542s] running symlink_data
+[4.542s] creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index
+[4.543s] creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index/resource_index
+[4.543s] creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index/resource_index/packages
+[4.543s] symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/resource/carryall_controller -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/ament_index/resource_index/packages
+[4.544s] symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/package.xml -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller
+[4.544s] creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/launch
+[4.544s] symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/launch/controller.launch.py -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/launch
+[4.544s] creating /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/config
+[4.545s] symbolically linking /home/u24/Documents/sw/carryall/build/carryall_controller/config/plc_params.yaml -> /home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/config

@@ -1,0 +1,7 @@
+{
+  "package_name": "hins_laser_interfaces",
+  "non_idl_tuples": [
+    "/home/u24/Documents/sw/carryall/src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces:msg/HinsMsg.msg",
+    "/home/u24/Documents/sw/carryall/src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces:srv/HinsSrv.srv"
+  ]
+}

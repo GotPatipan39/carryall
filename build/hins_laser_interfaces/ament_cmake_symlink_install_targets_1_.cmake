@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/rosidl_generator_py/hins_laser_interfaces/hins_laser_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "hins_laser_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/hins_laser_interfaces")

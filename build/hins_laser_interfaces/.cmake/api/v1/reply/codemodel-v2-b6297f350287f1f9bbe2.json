@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e03c5fb5c32fc1c6dce7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "hins_laser_interfaces__py",
+					"jsonFile" : "directory-hins_laser_interfaces__py-16972b6e14f1d00424d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/hins_laser_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hins_laser_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hins_laser_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hins_laser_interfaces_egg-957c93bd11fc477eec3e.json",
+					"name" : "ament_cmake_python_build_hins_laser_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_hins_laser_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_hins_laser_interfaces-2b938a62f9c6f623d162.json",
+					"name" : "ament_cmake_python_symlink_hins_laser_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces-ab3d5bf75b1af75f845a.json",
+					"name" : "hins_laser_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__cpp-3d2a49aeeb5da6ab0f98.json",
+					"name" : "hins_laser_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hins_laser_interfaces__py::@38f082e38fc1472c8474",
+					"jsonFile" : "target-hins_laser_interfaces__py-979bc2e50422aed36d17.json",
+					"name" : "hins_laser_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_generator_c-4798c79c7fbc59d79423.json",
+					"name" : "hins_laser_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_generator_py-00e3caf37e1a3fb9963a.json",
+					"name" : "hins_laser_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_generator_type_description-f9cab896735cf9ca2c27.json",
+					"name" : "hins_laser_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_typesupport_c-b8f02df88157461de5b1.json",
+					"name" : "hins_laser_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_typesupport_cpp-9451ceefed8ef6d92d35.json",
+					"name" : "hins_laser_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_typesupport_fastrtps_c-88ddd61b028c2ebf34ae.json",
+					"name" : "hins_laser_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_typesupport_fastrtps_cpp-773a134892b5cddd7802.json",
+					"name" : "hins_laser_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_typesupport_introspection_c-c878981e8390a3a5ccda.json",
+					"name" : "hins_laser_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces__rosidl_typesupport_introspection_cpp-5b9deffe1a0b3ee037b0.json",
+					"name" : "hins_laser_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces_s__rosidl_typesupport_c-cdb4506e6df6d4f58891.json",
+					"name" : "hins_laser_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces_s__rosidl_typesupport_fastrtps_c-567c72cc6998179164bd.json",
+					"name" : "hins_laser_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces_s__rosidl_typesupport_introspection_c-bf6c3f260958fb41f905.json",
+					"name" : "hins_laser_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hins_laser_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hins_laser_interfaces_uninstall-8be1e8674d52e4d370c1.json",
+					"name" : "hins_laser_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-133d589f868d14aa4bfb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces",
+		"source" : "/home/u24/Documents/sw/carryall/src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

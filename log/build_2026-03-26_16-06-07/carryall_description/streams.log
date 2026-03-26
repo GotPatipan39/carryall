@@ -1,0 +1,39 @@
+[0.435s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_description
+[0.763s] -- The C compiler identification is GNU 13.3.0
+[1.035s] -- The CXX compiler identification is GNU 13.3.0
+[1.091s] -- Detecting C compiler ABI info
+[1.358s] -- Detecting C compiler ABI info - done
+[1.394s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.395s] -- Detecting C compile features
+[1.396s] -- Detecting C compile features - done
+[1.420s] -- Detecting CXX compiler ABI info
+[1.713s] -- Detecting CXX compiler ABI info - done
+[1.775s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.777s] -- Detecting CXX compile features
+[1.778s] -- Detecting CXX compile features - done
+[1.791s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.278s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.567s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.731s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[2.879s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.231s] -- Configuring done (2.8s)
+[3.241s] -- Generating done (0.0s)
+[3.247s] -- Build files have been written to: /home/u24/Documents/sw/carryall/build/carryall_description
+[3.267s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_description
+[3.268s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_description -- -j4 -l4
+[3.380s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_description -- -j4 -l4
+[3.381s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_description
+[3.405s] -- Install configuration: ""
+[3.406s] -- Execute custom install script
+[3.408s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/carryall.urdf.xacro
+[3.433s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/carryall_gazebo.xacro
+[3.459s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/sensors.xacro
+[3.483s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[3.486s]   ament_cmake_symlink_install_directory() can't find
+[3.486s]   '/home/u24/Documents/sw/carryall/src/carryall_description/meshes'
+[3.487s] Call Stack (most recent call first):
+[3.487s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[3.489s]   cmake_install.cmake:46 (include)
+[3.490s] 
+[3.493s] [0m
+[3.494s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_description

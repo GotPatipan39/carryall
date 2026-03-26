@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: carryall-controller
+Version: 0.0.1
+Summary: PLC bridge and motor controller for CarryAll AGV
+Maintainer: CarryAll Team
+Maintainer-email: user@carryall.com
+License: MIT

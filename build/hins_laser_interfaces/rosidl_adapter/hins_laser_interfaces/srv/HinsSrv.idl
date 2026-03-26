@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hins_laser_interfaces/srv/HinsSrv.srv
+// generated code does not contain a copyright notice
+
+
+module hins_laser_interfaces {
+  module srv {
+    struct HinsSrv_Request {
+      int64 channel;
+    };
+    struct HinsSrv_Response {
+      boolean area1;
+
+      boolean area2;
+
+      boolean area3;
+
+      boolean success;
+    };
+  };
+};

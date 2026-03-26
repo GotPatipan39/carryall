@@ -1,0 +1,573 @@
+[0.191s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.191s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7423fb70e000>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7423fb88e450>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7423fb88e450>>)
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.258s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/u24/Documents/sw/carryall'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/USB驱动) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/bearer) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/iconengines) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/imageformats) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/images) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/information) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/platforms/images) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/translations) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(doc/lidar/Hinson V1.5.8 20251027/Hinson V1.5.8 20251027/调试工具) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_bringup) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carryall_bringup' with type 'ros.ament_cmake' and name 'carryall_bringup'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_controller) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carryall_controller' with type 'ros.ament_python' and name 'carryall_controller'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_description) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carryall_description' with type 'ros.ament_cmake' and name 'carryall_description'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_msgs) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carryall_msgs' with type 'ros.ament_cmake' and name 'carryall_msgs'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/carryall_navigation) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carryall_navigation' with type 'ros.ament_cmake' and name 'carryall_navigation'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2' with type 'ros.ament_cmake' and name 'hins_le_ros2'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces' with type 'ros.ament_cmake' and name 'hins_laser_interfaces'
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.397s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/jazzy
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'carryall_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/carryall_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/carryall_controller', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/carryall_controller', 'symlink_install': True, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'carryall_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/carryall_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/carryall_description', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/carryall_description', 'symlink_install': True, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'carryall_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/carryall_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/carryall_msgs', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/carryall_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'carryall_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'carryall_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/carryall_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/carryall_navigation', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/carryall_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'hins_laser_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'hins_laser_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/hins_laser_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/hins_laser_interfaces', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'carryall_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'carryall_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/carryall_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/carryall_bringup', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/carryall_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'hins_le_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'hins_le_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/u24/Documents/sw/carryall/build/hins_le_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/u24/Documents/sw/carryall/install/hins_le_ros2', 'merge_install': False, 'path': '/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.505s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.508s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/u24/Documents/sw/carryall/src/carryall_controller' with build type 'ament_python'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('carryall_controller', 'ament_prefix_path')
+[0.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/hook/ament_prefix_path.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/hook/ament_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_controller/share/carryall_controller/hook/ament_prefix_path.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.522s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/u24/Documents/sw/carryall/src/carryall_description' with build type 'ament_cmake'
+[0.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/u24/Documents/sw/carryall/src/carryall_description'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/u24/Documents/sw/carryall/src/carryall_navigation' with build type 'ament_cmake'
+[0.531s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/u24/Documents/sw/carryall/src/carryall_navigation'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/u24/Documents/sw/carryall/src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces' with build type 'ament_cmake'
+[0.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/u24/Documents/sw/carryall/src/drivers/Hinson_laser_interfaces_ROS2/hins_laser_interfaces'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/u24/Documents/sw/carryall/src/carryall_controller'
+[0.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_description -- -j4 -l4
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_navigation -- -j4 -l4
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/hins_laser_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/hins_laser_interfaces -- -j4 -l4
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_navigation -- -j4 -l4
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_navigation
+[1.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carryall_navigation)
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_navigation
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation' for CMake module files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation' for CMake config files
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('carryall_navigation', 'cmake_prefix_path')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/hook/cmake_prefix_path.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/hook/cmake_prefix_path.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/hook/cmake_prefix_path.sh'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/lib/pkgconfig/carryall_navigation.pc'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/lib/python3.12/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/bin'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.zsh'
+[1.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/u24/Documents/sw/carryall/install/carryall_navigation/share/colcon-core/packages/carryall_navigation)
+[1.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carryall_navigation)
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation' for CMake module files
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation' for CMake config files
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('carryall_navigation', 'cmake_prefix_path')
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/hook/cmake_prefix_path.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/hook/cmake_prefix_path.dsv'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/hook/cmake_prefix_path.sh'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/bin'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/lib/pkgconfig/carryall_navigation.pc'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/lib/python3.12/site-packages'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_navigation/bin'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.bash'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.zsh'
+[1.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/u24/Documents/sw/carryall/install/carryall_navigation/share/colcon-core/packages/carryall_navigation)
+[1.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/u24/Documents/sw/carryall/src/carryall_msgs' with build type 'ament_cmake'
+[1.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/u24/Documents/sw/carryall/src/carryall_msgs'
+[1.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_msgs
+[2.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_description -- -j4 -l4
+[2.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_description
+[3.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carryall_description)
+[3.763s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description' for CMake module files
+[3.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_description
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description' for CMake config files
+[3.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('carryall_description', 'cmake_prefix_path')
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/hook/cmake_prefix_path.ps1'
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/hook/cmake_prefix_path.dsv'
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/hook/cmake_prefix_path.sh'
+[3.777s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/bin'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/lib/pkgconfig/carryall_description.pc'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/lib/python3.12/site-packages'
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/bin'
+[3.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.ps1'
+[3.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.dsv'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.sh'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.bash'
+[3.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.zsh'
+[3.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/u24/Documents/sw/carryall/install/carryall_description/share/colcon-core/packages/carryall_description)
+[3.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carryall_description)
+[3.800s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description' for CMake module files
+[3.805s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description' for CMake config files
+[3.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('carryall_description', 'cmake_prefix_path')
+[3.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/hook/cmake_prefix_path.ps1'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/hook/cmake_prefix_path.dsv'
+[3.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/hook/cmake_prefix_path.sh'
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/bin'
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/lib/pkgconfig/carryall_description.pc'
+[3.820s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/lib/python3.12/site-packages'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_description/bin'
+[3.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.ps1'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.dsv'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.sh'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.zsh'
+[3.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/u24/Documents/sw/carryall/install/carryall_description/share/colcon-core/packages/carryall_description)
+[3.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/u24/Documents/sw/carryall/build/carryall_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/u24/Documents/sw/carryall/install/carryall_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/u24/Documents/sw/carryall/build/carryall_controller/build --no-deps symlink_data
+[5.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_msgs
+[5.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carryall_msgs)
+[5.890s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_msgs' for CMake module files
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_msgs' for CMake config files
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_msgs/bin'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_msgs/lib/pkgconfig/carryall_msgs.pc'
+[5.893s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_msgs/lib/python3.12/site-packages'
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/u24/Documents/sw/carryall/install/carryall_msgs/bin'
+[5.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.ps1'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.dsv'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.sh'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.bash'
+[5.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.zsh'
+[5.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/u24/Documents/sw/carryall/install/carryall_msgs/share/colcon-core/packages/carryall_msgs)
+[12.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[12.451s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.461s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.484s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/u24/Documents/sw/carryall/install/local_setup.ps1'
+[12.493s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/u24/Documents/sw/carryall/install/_local_setup_util_ps1.py'
+[12.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/u24/Documents/sw/carryall/install/setup.ps1'
+[12.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/u24/Documents/sw/carryall/install/local_setup.sh'
+[12.499s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/u24/Documents/sw/carryall/install/_local_setup_util_sh.py'
+[12.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/u24/Documents/sw/carryall/install/setup.sh'
+[12.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/u24/Documents/sw/carryall/install/local_setup.bash'
+[12.508s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/u24/Documents/sw/carryall/install/setup.bash'
+[12.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/u24/Documents/sw/carryall/install/local_setup.zsh'
+[12.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/u24/Documents/sw/carryall/install/setup.zsh'

@@ -6,7 +6,6 @@ find_package(urdf REQUIRED)
 
 install(DIRECTORY
   urdf
-  meshes
   launch
   worlds
   DESTINATION share/${PROJECT_NAME}

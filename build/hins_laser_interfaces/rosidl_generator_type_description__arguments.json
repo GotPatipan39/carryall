@@ -1,0 +1,12 @@
+{
+  "package_name": "hins_laser_interfaces",
+  "output_dir": "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/rosidl_generator_type_description/hins_laser_interfaces",
+  "idl_tuples": [
+    "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/rosidl_adapter/hins_laser_interfaces:msg/HinsMsg.idl",
+    "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/rosidl_adapter/hins_laser_interfaces:srv/HinsSrv.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

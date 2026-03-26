@@ -1,0 +1,31 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+  carryall_msgs --arguments-file
+  /home/u24/Documents/sw/carryall/build/carryall_msgs/rosidl_adapter__arguments__carryall_msgs.json
+  --output-dir
+  /home/u24/Documents/sw/carryall/build/carryall_msgs/rosidl_adapter/carryall_msgs
+  --output-file
+  /home/u24/Documents/sw/carryall/build/carryall_msgs/rosidl_adapter/carryall_msgs.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "<frozen runpy>", line 198, in _run_module_as_main
+    File "<frozen runpy>", line 88, in _run_code
+    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+               ^^^^^^
+    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+                     ^^^^^^^^^^^^^^^
+    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 32, in convert_to_idl
+      assert False, f"Unsupported interface type '{interface_file.suffix}'"
+             ^^^^^
+
+  AssertionError: Unsupported interface type ''
+
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+  CMakeLists.txt:7 (rosidl_generate_interfaces)
+
+[0m

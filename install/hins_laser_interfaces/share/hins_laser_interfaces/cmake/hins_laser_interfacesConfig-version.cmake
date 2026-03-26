@@ -1,0 +1,1 @@
+/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/ament_cmake_core/hins_laser_interfacesConfig-version.cmake

@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/u24/Documents/sw/carryall/build/carryall_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/carryall.urdf.xacro
+-- Up-to-date symlink: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/carryall_gazebo.xacro
+-- Up-to-date symlink: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/urdf/sensors.xacro
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/launch/display.launch.py
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/launch/gazebo.launch.py
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/worlds/warehouse.sdf
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/ament_index/resource_index/package_run_dependencies/carryall_description
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/ament_index/resource_index/parent_prefix_path/carryall_description
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/path.sh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/environment/path.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.bash
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.sh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.zsh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/local_setup.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/ament_index/resource_index/packages/carryall_description
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/cmake/carryall_descriptionConfig.cmake
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/cmake/carryall_descriptionConfig-version.cmake
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_description/share/carryall_description/package.xml

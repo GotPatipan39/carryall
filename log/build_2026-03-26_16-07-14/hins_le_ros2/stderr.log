@@ -1,0 +1,34 @@
+In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/laser_data_receiver.h:26[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/laser_data_receiver.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/laser_data_receiver.h:26[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/xingsong_driver.h:18[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/xingsong_driver.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/laser_data_receiver.h:26[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/include/hins/xingsong_driver.h:18[m[K,
+                 from [01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/main.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/laser_data_receiver.cpp:[m[K In member function ‘[01m[Khins::ScanData hins::LaserDataReceiver::[01;32m[KGetFullScan[m[K()[m[K’:
+[01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/laser_data_receiver.cpp:121:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  121 |     if ([01;35m[Kdata.distance_data.size() != scan_all_point_num_[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/xingsong_driver.cpp:[m[K In member function ‘[01m[Kvoid hins::XingSongDriver::[01;32m[KSetAreaCommand[m[K(hins::HSGetAreaDataPackage)[m[K’:
+[01m[K/home/u24/Documents/sw/carryall/src/drivers/Hinson_LE_ROS2_v0.4/hins_le_ros2/src/hins/xingsong_driver.cpp:253:50:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  253 |     if((command.channel > 63) | ([01;35m[Kcommand.channel < 0[m[K))
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K

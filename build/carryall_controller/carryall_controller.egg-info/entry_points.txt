@@ -1,0 +1,3 @@
+[console_scripts]
+odom_publisher = carryall_controller.odom_publisher:main
+plc_bridge_node = carryall_controller.plc_bridge_node:main

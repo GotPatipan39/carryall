@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/u24/Documents/sw/carryall/build/carryall_msgs
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/ament_index/resource_index/package_run_dependencies/carryall_msgs
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/ament_index/resource_index/parent_prefix_path/carryall_msgs
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/path.sh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/environment/path.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.bash
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.sh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.zsh
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/local_setup.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.dsv
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/ament_index/resource_index/packages/carryall_msgs
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/cmake/carryall_msgsConfig.cmake
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/cmake/carryall_msgsConfig-version.cmake
+-- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_msgs/share/carryall_msgs/package.xml

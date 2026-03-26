@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hins_laser_interfaces__py",
+		"source" : "/home/u24/Documents/sw/carryall/build/hins_laser_interfaces/hins_laser_interfaces__py"
+	}
+}

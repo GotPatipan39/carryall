@@ -1,0 +1,53 @@
+[0.027s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_msgs
+[0.289s] -- The C compiler identification is GNU 13.3.0
+[0.471s] -- The CXX compiler identification is GNU 13.3.0
+[0.518s] -- Detecting C compiler ABI info
+[0.766s] -- Detecting C compiler ABI info - done
+[0.836s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.837s] -- Detecting C compile features
+[0.842s] -- Detecting C compile features - done
+[0.864s] -- Detecting CXX compiler ABI info
+[1.458s] -- Detecting CXX compiler ABI info - done
+[1.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.552s] -- Detecting CXX compile features
+[1.555s] -- Detecting CXX compile features - done
+[1.568s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.198s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.566s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.772s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.254s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.478s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[4.479s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[4.479s]   carryall_msgs --arguments-file
+[4.480s]   /home/u24/Documents/sw/carryall/build/carryall_msgs/rosidl_adapter__arguments__carryall_msgs.json
+[4.480s]   --output-dir
+[4.480s]   /home/u24/Documents/sw/carryall/build/carryall_msgs/rosidl_adapter/carryall_msgs
+[4.480s]   --output-file
+[4.481s]   /home/u24/Documents/sw/carryall/build/carryall_msgs/rosidl_adapter/carryall_msgs.idls)
+[4.481s]   returned error code 1:
+[4.490s] 
+[4.496s]   Traceback (most recent call last):
+[4.496s] 
+[4.497s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[4.497s]     File "<frozen runpy>", line 88, in _run_code
+[4.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.497s]       sys.exit(main())
+[4.498s]                ^^^^^^
+[4.498s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.498s]       abs_idl_file = convert_to_idl(
+[4.504s]                      ^^^^^^^^^^^^^^^
+[4.505s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 32, in convert_to_idl
+[4.505s]       assert False, f"Unsupported interface type '{interface_file.suffix}'"
+[4.505s]              ^^^^^
+[4.505s] 
+[4.506s]   AssertionError: Unsupported interface type ''
+[4.506s] 
+[4.506s] Call Stack (most recent call first):
+[4.506s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[4.507s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[4.507s] 
+[4.507s] [0m
+[4.515s] -- Configuring incomplete, errors occurred!
+[4.552s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_msgs

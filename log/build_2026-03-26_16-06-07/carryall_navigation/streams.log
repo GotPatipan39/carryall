@@ -1,0 +1,46 @@
+[0.431s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_navigation
+[0.735s] -- The C compiler identification is GNU 13.3.0
+[1.025s] -- The CXX compiler identification is GNU 13.3.0
+[1.076s] -- Detecting C compiler ABI info
+[1.331s] -- Detecting C compiler ABI info - done
+[1.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.361s] -- Detecting C compile features
+[1.363s] -- Detecting C compile features - done
+[1.391s] -- Detecting CXX compiler ABI info
+[1.689s] -- Detecting CXX compiler ABI info - done
+[1.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.729s] -- Detecting CXX compile features
+[1.732s] -- Detecting CXX compile features - done
+[1.747s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.304s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.546s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.987s] -- Configuring done (2.5s)
+[2.994s] -- Generating done (0.0s)
+[3.003s] -- Build files have been written to: /home/u24/Documents/sw/carryall/build/carryall_navigation
+[3.019s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/u24/Documents/sw/carryall/src/carryall_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/u24/Documents/sw/carryall/install/carryall_navigation
+[3.022s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_navigation -- -j4 -l4
+[3.148s] Invoked command in '/home/u24/Documents/sw/carryall/build/carryall_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/u24/Documents/sw/carryall/build/carryall_navigation -- -j4 -l4
+[3.187s] Invoking command in '/home/u24/Documents/sw/carryall/build/carryall_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/u24/Documents/sw/carryall/build/carryall_navigation
+[3.211s] -- Install configuration: ""
+[3.213s] -- Execute custom install script
+[3.215s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/launch/mapping.launch.py
+[3.240s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/launch/nav2.launch.py
+[3.263s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/maps/warehouse_map.pgm
+[3.287s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/maps/warehouse_map.yaml
+[3.313s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/params/nav2_params.yaml
+[3.336s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/params/slam_toolbox_params.yaml
+[3.360s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/ament_index/resource_index/package_run_dependencies/carryall_navigation
+[3.384s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/ament_index/resource_index/parent_prefix_path/carryall_navigation
+[3.411s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/environment/ament_prefix_path.sh
+[3.432s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/environment/ament_prefix_path.dsv
+[3.456s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/environment/path.sh
+[3.486s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/environment/path.dsv
+[3.503s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/local_setup.bash
+[3.524s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/local_setup.sh
+[3.540s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/local_setup.zsh
+[3.562s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/local_setup.dsv
+[3.588s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.dsv
+[3.612s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/ament_index/resource_index/packages/carryall_navigation
+[3.639s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/cmake/carryall_navigationConfig.cmake
+[3.663s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/cmake/carryall_navigationConfig-version.cmake
+[3.687s] -- Symlinking: /home/u24/Documents/sw/carryall/install/carryall_navigation/share/carryall_navigation/package.xml
