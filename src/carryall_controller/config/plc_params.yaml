@@ -1,33 +1,33 @@
 # Configuration for CarryAll AGV (Hand Lift / Tricycle Model)
+# This file follows the ROS 2 parameter format
 
-plc_connection:
-  ip_address: "192.168.1.10"
-  port: 502
-  protocol: "modbus_tcp"
+/**:
+  ros__parameters:
+    # --- Connection Settings ---
+    plc_ip: "192.168.1.10"
+    plc_port: 502
+    use_mock: false
 
-robot_params:
-  # Distance from the front drive wheel to the rear axle center (meters)
-  wheelbase: 0.85 
-  
-  # Max speed limits
-  max_linear_speed: 1.0   # m/s
-  max_angular_speed: 1.0  # rad/s
-  max_steer_angle_deg: 90.0 # Max degrees the wheel can turn
-
-modbus_registers:
-  # Outputs to PLC (Control)
-  linear_velocity_reg: 100    # D100
-  target_steer_angle_reg: 102 # D102 (Degrees * 100)
-
-  # Inputs from PLC (Feedback)
-  drive_encoder_reg: 200      # D200, D201 (32-bit)
-  steering_poten_reg: 204     # D204 (Raw 0-16383 or similar)
-
-calibration:
-  # Drive wheel
-  wheel_radius: 0.125         # meters
-  encoder_ticks_per_rev: 4096 # ticks
-  
-  # Potentiometer to Radians: angle = (raw - center) * scale
-  poten_center_value: 8192    # Raw value when wheel is straight
-  poten_scale: 0.000192       # Scale to convert raw delta to radians
+    # --- Robot Physical Parameters ---
+    wheelbase: 0.85             # Distance front wheel to rear axle (m)
+    wheel_radius: 0.125         # Drive wheel radius (m)
+    max_linear_speed: 1.0       # Max speed (m/s)
+    max_angular_speed: 1.0      # Max rotation (rad/s)
+    max_steer_angle_deg: 90.0   # Max physical turn limit (deg)
+    
+    # --- Modbus Register Mapping (FX5U D-Registers) ---
+    linear_velocity_reg: 100    # D100 (Target Velocity)
+    target_steer_angle_reg: 102 # D102 (Target Steer Angle)
+    drive_encoder_reg: 200      # D200-201 (32-bit Drive Encoder)
+    steering_poten_reg: 204     # D204 (Raw Potentiometer)
+    
+    # --- Calibration Data ---
+    encoder_ticks_per_rev: 4096 # Resolution of drive motor encoder
+    poten_center_value: 8192    # Raw value when wheel is straight
+    poten_scale: 0.000192       # Scale: (raw - center) * scale = radians
+    velocity_scale: 1000.0      # Scale: v * 1000 = INT16 for PLC
+    steer_angle_scale: 100.0    # Scale: deg * 100 = INT16 for PLC (0.01 deg res)
+    
+    # --- Node Settings ---
+    publish_rate: 50.0          # Odom frequency (Hz)
+    cmd_vel_timeout: 0.5        # Safety timeout (s)
