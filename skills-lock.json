@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "docker-ros2-development": {
+      "source": "arpitg1304/robotics-agent-skills",
+      "sourceType": "github",
+      "computedHash": "076f401e78321cee19cf150efdc358816b36527896e34bb9e27b2b880384d40a"
+    },
     "find-skills": {
       "source": "vercel-labs/skills",
       "sourceType": "github",
