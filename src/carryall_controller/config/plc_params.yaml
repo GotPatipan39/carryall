@@ -1,0 +1,33 @@
+# Configuration for CarryAll AGV (Hand Lift / Tricycle Model)
+
+plc_connection:
+  ip_address: "192.168.1.10"
+  port: 502
+  protocol: "modbus_tcp"
+
+robot_params:
+  # Distance from the front drive wheel to the rear axle center (meters)
+  wheelbase: 0.85 
+  
+  # Max speed limits
+  max_linear_speed: 1.0   # m/s
+  max_angular_speed: 1.0  # rad/s
+  max_steer_angle_deg: 90.0 # Max degrees the wheel can turn
+
+modbus_registers:
+  # Outputs to PLC (Control)
+  linear_velocity_reg: 100    # D100
+  target_steer_angle_reg: 102 # D102 (Degrees * 100)
+
+  # Inputs from PLC (Feedback)
+  drive_encoder_reg: 200      # D200, D201 (32-bit)
+  steering_poten_reg: 204     # D204 (Raw 0-16383 or similar)
+
+calibration:
+  # Drive wheel
+  wheel_radius: 0.125         # meters
+  encoder_ticks_per_rev: 4096 # ticks
+  
+  # Potentiometer to Radians: angle = (raw - center) * scale
+  poten_center_value: 8192    # Raw value when wheel is straight
+  poten_scale: 0.000192       # Scale to convert raw delta to radians

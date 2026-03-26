@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ==================== LiDAR MOUNT ==================== -->
+  <link name="lidar_mount">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.1"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.8 0.8 0.8 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="lidar_mount_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_mount"/>
+    <origin xyz="0.2 0 ${base_height/2 + 0.05}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================== LiDAR SENSOR ==================== -->
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.08"/>
+      </geometry>
+      <material name="dark_gray">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="lidar_mount"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================== IMU SENSOR ==================== -->
+  <link name="imu_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.02 0.005"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0.0 0.8 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.02 0.005"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================== CAMERA MOUNT (OPTIONAL) ==================== -->
+  <link name="camera_mount">
+    <visual>
+      <geometry>
+        <box size="0.02 0.08 0.02"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+  </link>
+
+  <joint name="camera_mount_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_mount"/>
+    <origin xyz="0.25 0 ${base_height/2 + 0.15}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================== CAMERA (OPTIONAL) ==================== -->
+  <link name="camera_link">
+    <visual>
+      <geometry>
+        <box size="0.03 0.05 0.03"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.03 0.05 0.03"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="camera_mount"/>
+    <child link="camera_link"/>
+    <origin xyz="0.02 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================== SAFETY BUMPER ==================== -->
+  <link name="bumper_front">
+    <visual>
+      <geometry>
+        <box size="0.02 ${base_width} 0.05"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="1.0 1.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 ${base_width} 0.05"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="bumper_front_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="bumper_front"/>
+    <origin xyz="${base_length/2 + 0.01} 0 ${-base_height/4}" rpy="0 0 0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "645b891da1edbae76ab79c7b088d4e73397464f8396edaf773c0e01971ce75d6"
+    },
+    "modbus-protocol": {
+      "source": "jnzader/project-starter-framework",
+      "sourceType": "github",
+      "computedHash": "ed1ae4f79c0aa4e41d7c4b4f85b7eaefef43e9a7ae083196f9bf7ccb8d963703"
+    },
+    "ros2-robotics": {
+      "source": "omer-metin/skills-for-antigravity",
+      "sourceType": "github",
+      "computedHash": "1538202a07efdc14482af45531f891cec5b29784d902f1b31075196e3953c694"
+    }
+  }
+}
