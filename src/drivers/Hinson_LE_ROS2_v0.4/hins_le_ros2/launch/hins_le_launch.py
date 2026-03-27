@@ -14,7 +14,7 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {"frame_id": "laser1_link",
+                {"frame_id": "lidar_link",
                  "change_param":True,
                  "laser_ip": "192.168.1.88",			# 传感器ip地址		
                  "laser_port": 8080,				# 传感器端口（固定为8080）
